@@ -11,7 +11,9 @@ namespace ConsoleApp1
         public void JumlahTigaAngka<T>(T x, T y, T z)
         {
             dynamic a = 0;
+
             a = a + x + y + z;
+
             Console.WriteLine(a);
         }
     }
